@@ -24,7 +24,6 @@ img {
   max-width: 100%;
 }
 
-
 .image-container {
     position: absolute;
     top: 50%;
@@ -49,7 +48,7 @@ img {
   position: absolute;
   bottom: 0;
   right: 0;
-  color: #ffffff;
+  color: #696969;
   padding: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -98,7 +97,7 @@ img {
   left: 0;
 }
 .is-visible .resize-image {
-  width: 15%;
+  width: 50%;
   -webkit-animation: cd-bounce-in 0.7s;
   -moz-animation: cd-bounce-in 0.7s;
   animation: cd-bounce-in 0.7s;
@@ -141,7 +140,7 @@ img {
   position: absolute;
   height: 44px;
   width: 44px;
-  left: 15%;
+  left: 50%;
   top: 50%;
   margin-left: -22px;
   margin-top: -22px;
