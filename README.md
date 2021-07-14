@@ -5,5 +5,5 @@
     <a href="https://hotspringspa.github.io/interactive-slider/"><img src="./app-screenshot-interactive-slider.jpg"
             width="100%"></a>
             <br>
-[Click image to see app live]
 </p>
+<p style="text-align: center">[Click image to see app live]</p>
