@@ -12,12 +12,6 @@ body {
   color: #445b7c;
   background-color: #ddd;
   height: 100vh;
-
-}
-
-a {
-  color: #dc717d;
-  text-decoration: none;
 }
 
 img {
@@ -25,19 +19,20 @@ img {
 }
 
 .image-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 90%;
   max-width: 768px;
   margin: 2em auto;
-  box-shadow: 3px 20px 40px -30px #000, 3px -20px 40px -30px #000;
+  box-shadow: 0px 8px 16px -16px #000, 0px -8px 16px -16px #000;
 }
+
 .image-container img {
   display: block;
-  /* filteR: invert(0.8)saturate(2) */
 }
+
 @media only screen and (min-width: 768px) {
   .image-container {
     margin: 4em auto;
@@ -62,9 +57,11 @@ img {
   -moz-transition: -moz-transform 0.3s 0.7s, opacity 0.3s 0.7s;
   transition: transform 0.3s 0.7s, opacity 0.3s 0.7s;
 }
+
 .image-label.is-hidden {
   visibility: hidden;
 }
+
 .is-visible .image-label {
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -81,8 +78,7 @@ img {
   width: 0;
   height: 100%;
   overflow: hidden;
-  background: url("./tear-away-1.png")
-    no-repeat left top;
+  background: url("./tear-away-1.png") no-repeat left top;
   background-size: auto 100%;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -146,11 +142,9 @@ img {
   margin-top: -22px;
   border-radius: 50%;
   background: #009ca6
-    url("./arrows.svg") no-repeat
-    center center;
+    url("./arrows.svg") no-repeat center center;
   cursor: grab;
-  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.6),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
   opacity: 0;
   -webkit-transform: translate3d(0, 0, 0) scale(0);
   -moz-transform: translate3d(0, 0, 0) scale(0);
@@ -176,4 +170,8 @@ img {
   -webkit-transition: -webkit-transform 0.3s 0.7s, opacity 0s 0.7s;
   -moz-transition: -moz-transform 0.3s 0.7s, opacity 0s 0.7s;
   transition: transform 0.3s 0.7s, opacity 0s 0.7s;
+}
+
+.ui-loader.ui-corner-all.ui-loader-default.ui-body-a {
+  display: none;
 }
