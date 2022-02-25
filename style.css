@@ -36,7 +36,7 @@ img {
 }
 .image-container img {
   display: block;
-  filteR: invert(0.8)saturate(2)
+  /* filteR: invert(0.8)saturate(2) */
 }
 @media only screen and (min-width: 768px) {
   .image-container {
@@ -81,7 +81,7 @@ img {
   width: 0;
   height: 100%;
   overflow: hidden;
-  background: url("https://www.hotspring.com/wp-content/uploads/2021/03/HotSpring-limelight-collection-01.png")
+  background: url("./tear-away-1.png")
     no-repeat left top;
   background-size: auto 100%;
   -webkit-transform: translateZ(0);
@@ -146,7 +146,7 @@ img {
   margin-top: -22px;
   border-radius: 50%;
   background: #009ca6
-    url("https://webdevtrick.com/wp-content/uploads/arrows.svg") no-repeat
+    url("./arrows.svg") no-repeat
     center center;
   cursor: grab;
   box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.6),
